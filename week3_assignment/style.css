@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(212, 229, 244);
+    margin: 0;
+}
+.Title {
+    background-color: rgb(164, 188, 239);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    color: rgba(103, 117, 222, 0.553);
+}
+.MainTitle{
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: auto;
+}
+.SubTitle{
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+}
+.Container {
+    margin: 100px 200px;
+    text-align: center;
+}
+.Intro, .Interested{
+    background-color: rgb(170, 181, 241);
+    color: rgb(249, 228, 228);
+    margin-bottom: 40px;
+    padding: 30px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.Intro img{
+    width: 100px;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+.Interested img{
+    width: 100px;
+    margin: 0 30px;
+    border-radius: 10px;
+}
