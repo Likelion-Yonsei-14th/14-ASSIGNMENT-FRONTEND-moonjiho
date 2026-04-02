@@ -47,5 +47,8 @@ body {
 }
 a{
     text-decoration: none;
+    color: rgb(249, 228, 228);
+}
+.Title a{
     color: rgba(103, 117, 222, 0.553);
 }
