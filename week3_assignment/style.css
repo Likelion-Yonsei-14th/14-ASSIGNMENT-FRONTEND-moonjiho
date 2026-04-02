@@ -1,6 +1,7 @@
 body {
     background-color: rgb(212, 229, 244);
     margin: 0;
+    overflow-y: scroll;
 }
 .Title {
     background-color: rgb(164, 188, 239);
