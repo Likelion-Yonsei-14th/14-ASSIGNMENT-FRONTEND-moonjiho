@@ -46,9 +46,9 @@ body {
     border-radius: 10px;
 }
 a{
-    text-decoration: none;
     color: rgb(249, 228, 228);
 }
 .Title a{
     color: rgba(103, 117, 222, 0.553);
+    text-decoration: none;
 }
