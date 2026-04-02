@@ -23,7 +23,11 @@ body {
     margin: 100px 200px;
     text-align: center;
 }
-.Intro, .Interested{
+.Intro{
+    font-size: 40px;
+    font-weight: bold;
+}
+.Likelion, .Yonsei, .Interested{
     background-color: rgb(170, 181, 241);
     color: rgb(249, 228, 228);
     margin-bottom: 40px;
@@ -34,16 +38,13 @@ body {
     text-align: left;
     box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
 }
-.Intro img{
-    width: 100px;
-    margin: 0 30px;
-    border-radius: 10px;
-}
-.Interested img{
+
+.Container img{
     width: 100px;
     margin: 0 30px;
     border-radius: 10px;
 }
 a{
-    
+    text-decoration: none;
+    color: rgba(103, 117, 222, 0.553);
 }
