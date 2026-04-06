@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="Title">
-        <span class="MainTitle"><a href="index.html">문지호</a></span>
-        <div class="SubTitle">
+        <span class="MainTitle"><a>문지호</a></span>
+        <div class="SubTitle hidden" id="detail">
             <span><a href="info.html">INFO</a></span>
             <span><a href="work.html">WORK</a></span>
         </div>
@@ -17,9 +17,20 @@
     <div class="Container">
         <div class="Intro">            
             <div>
-            <p>Hello!<br>Welcome to my portfolio!</p>
+            <p>안녕하세요!<br>포트폴리오의 주인을 맞혀보세요.</p>
+            <form id="nameForm">
+                <input 
+                    type="text" 
+                    id="nameInput" 
+                    placeholder="Enter name..."
+                    maxlength="15"
+                    required
+                />
+                <button type="submit">Submit</button>
+            </form>
             </div>            
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

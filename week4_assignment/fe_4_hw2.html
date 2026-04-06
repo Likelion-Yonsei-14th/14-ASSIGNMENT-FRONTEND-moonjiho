@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Greeting</title>
+</head>
+<body>
+  <!-- 사용자 이름을 입력받기 위한 form -->
+  <form id="nameForm">
+    <input 
+      type="text" 
+      id="nameInput" 
+      placeholder="Enter your name"
+      maxlength="15"
+      required
+    />
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- 숨기고/보여줄 h2: 처음엔 내용이 없음, JS로 변경 -->
+  <h2 id="greetingText"></h2>
+
+  <script src="fe_4_hw2.js"></script>
+</body>
+</html>

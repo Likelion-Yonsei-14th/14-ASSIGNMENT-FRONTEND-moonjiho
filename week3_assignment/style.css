@@ -20,6 +20,9 @@ body {
     gap: 20px;
     font-weight: 600;
 }
+.hidden{
+    display: none;
+}
 .Container {
     margin: 100px 200px;
     text-align: center;
