@@ -9,4 +9,4 @@ toggleBtn.addEventListener('click', ()=>{
     } else {
         toggleBtn.innerText = 'Hide Content';
     }
-})
+});
