@@ -12,7 +12,7 @@ nameForm.addEventListener('submit', (event)=>{
     if (name === myName) {
         detail.classList.remove('hidden');
         intro.classList.toggle('hidden');
-        greetingText.innerText = '정답입니다!\n우측 상단을 확인해주세요!';
+        greetingText.innerText = '정답입니다!\n우측 상단을 확인해주세요.';
     } else {
         alert('오답입니다!\n(Hint: 좌측 상단)');
         nameInput.value = '';
