@@ -17,4 +17,4 @@ nameForm.addEventListener('submit', (event)=>{
         alert('오답입니다!\n(Hint: 좌측 상단)');
         nameInput.value = '';
     }
-})
+});
