@@ -1,7 +1,8 @@
 const nameForm = document.getElementById('nameForm');
 const nameInput = document.getElementById('nameInput');
 const detail = document.getElementById('detail');
-const intro = document.getElementsByClassName('Intro')[0];
+const intro = document.getElementById('intro');
+const greetingText = document.getElementById('greetingText');
 const myName = '문지호';
 
 nameForm.addEventListener('submit', (event)=>{
@@ -11,8 +12,8 @@ nameForm.addEventListener('submit', (event)=>{
     if (name === myName) {
         detail.classList.remove('hidden');
         intro.classList.toggle('hidden');
-        alert('정답입니다! 우측 상단을 확인해주세요!');
+        greetingText.innerText = '정답입니다!\n우측 상단을 확인해주세요!';
     } else {
-        alert('오답입니다! 좌측 상단을 확인해주세요!')
+        alert('오답입니다!\n(Hint: 좌측 상단)')
     }
 })
