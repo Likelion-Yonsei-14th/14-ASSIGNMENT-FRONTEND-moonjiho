@@ -7,13 +7,8 @@ function App() {
 
   return (
     <>
-      <NameQuiz open={open} setOpen={setOpen} />
-      {open && (
-        <>
-          <Portfolio></Portfolio>
-          <ScrollToTopButton></ScrollToTopButton>
-        </>
-      )}
+      <Portfolio></Portfolio>
+      <ScrollToTopButton></ScrollToTopButton>
     </>
   )
 }
