@@ -20,6 +20,7 @@ function Portfolio() {
             <button onClick={() => setTab('projects')}>Projects</button>
         </div>
       </div>
+      
       <IntroEditor></IntroEditor>
 
       {/* 현재 탭에 따라 다른 내용을 보여주세요 */}
