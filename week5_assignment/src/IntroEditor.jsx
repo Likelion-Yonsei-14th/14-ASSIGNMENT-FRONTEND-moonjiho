@@ -12,18 +12,21 @@ function IntroEditor() {
 
   return (
     <div>
-      {/* input의 값은 intro 상태와 연결되어야 합니다 */}
-      {/* 입력이 바뀔 때 intro 상태를 업데이트하세요 */}
-      <input
-        ref={inputRef}
-        value={intro}
-        onChange={(e) => {setIntro(e.target.value)}}
-        placeholder="한 줄 소개를 입력하세요"
-      />
-      <button onClick={focusInput}>입력창으로 이동</button>
+        <div className='IntroEditor'>
+          {/* input의 값은 intro 상태와 연결되어야 합니다 */}
+          {/* 입력이 바뀔 때 intro 상태를 업데이트하세요 */}
+        <input
+            ref={inputRef}
+            value={intro}
+            onChange={(e) => {setIntro(e.target.value)}}
+            placeholder="한 줄 소개를 입력하세요"
+        />
+          <button onClick={focusInput}>입력창으로 이동</button>
 
-      {/* 입력한 자기소개를 여기 출력하세요 */}
-      <p>자기소개: {intro}</p>
+          {/* 입력한 자기소개를 여기 출력하세요 */}
+
+        </div>
+        <p>자기소개: {intro}</p>
     </div>
   );
 }
