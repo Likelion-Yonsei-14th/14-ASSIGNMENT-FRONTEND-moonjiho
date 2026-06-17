@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(107, 155, 213);
+    padding: 30px;
+}
+.title h1{
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px 0 10px 0;
+}
+.title h2{
+    text-align: right;
+    margin-bottom: 0;
+}
+.title h3{
+    text-align: right;
+    margin-top: 0;
+}
+.bold{
+    font-weight: 900;
+}
+.contact{
+    background-color: white;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.likes{
+    background-color: white;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.container-title{
+    color:white;
+    background-color: rgb(100, 223, 217);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+.contact-detail{
+    font-style: italic;
+    padding-left: 25px;
+}
+.likes-detail{
+    color: rgb(19, 139, 109);
+    list-style: circle;
+}
+a {
+    text-decoration: none;
+}
+.link {
+    text-align: center;
+}
+.link img {
+    width: 40px;
+}
